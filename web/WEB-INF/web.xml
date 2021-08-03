@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <filter>
+        <filter-name>Authentication</filter-name>
+        <filter-class>filter.Authentication</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>Authentication</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <servlet-name>Home</servlet-name>
+        <servlet-class>controller.Home</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Galery</servlet-name>
+        <servlet-class>controller.Galery</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Contact</servlet-name>
+        <servlet-class>controller.Contact</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Galery</servlet-name>
+        <url-pattern>/galery</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Contact</servlet-name>
+        <url-pattern>/contact</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <listener>
+        <listener-class>controller.Configuration</listener-class>
+    </listener>
+    <welcome-file-list>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
+</web-app>

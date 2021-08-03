@@ -1,0 +1,50 @@
+.nav{
+    background-color: #303030;
+}
+.pre-header{
+    width: 940px;
+    font-size: 16px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.pre-header a{
+    border-left: 1px solid grey;
+    padding: 0px 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+.active{
+    font-weight: bold;
+}
+.header{
+    background-color: #722f31;
+}
+.header-inner{
+    padding: 15px 0px 30px;
+    width: 940px;
+    margin: 0 auto;
+}
+.img{
+    background: url(../images/logo.png);
+    margin-top: 10px;
+    width: 100px;
+    height: 86px;
+    float: left;
+}
+
+.big-title{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-top: 7px;
+    margin-left: 110px;
+}
+.small-title{
+    color: white;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 110px;
+}

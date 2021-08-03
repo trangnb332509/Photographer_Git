@@ -1,0 +1,33 @@
+.header-right{
+    background-color: #303030;
+    margin-top: 25px;
+    margin-left: 15px;
+    padding: 7px 15px;
+}
+.header-right p{
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+}
+.inner-right{
+    background-color:rgba(72, 15, 10, 0.2);
+    margin-left: 15px;
+    display: flex;
+}
+
+.icon{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.linkShare{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.linkShare a{
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+

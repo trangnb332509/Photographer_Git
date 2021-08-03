@@ -1,0 +1,90 @@
+body{
+    background-image: url(../images/background.png);
+    font-family: serif;
+    background-color: #aa4043;
+}
+.container{
+    margin: 0 auto;
+    height: auto;
+    width: 940px;
+    display: flex;
+}
+.left{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 70%;
+    float: left;
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
+.right{
+    width: 30%;
+    float: right;
+}
+.summmary{
+    font-style: italic;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: white;
+}
+.galeries ul{
+    list-style: none;
+    margin-top: 40px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.galeries li{
+    display: inline-block;
+    width: 30.8%;
+    margin-right: 21.02px;
+}
+.galeries li:last-child{
+    margin-right: 0px;
+}
+.galery-title{
+    margin: 5px 0px;
+}
+.galery-title a{
+    color: white;
+    font-size: 20px;
+}
+.description-font{
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 40px;
+    color: white;
+}
+.about{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.result{
+    color: red;
+    text-align: center;
+}
+.bottom-paging{
+    float: right;
+}
+.bottom-paging a
+{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+    color: #3E4E44;
+    text-decoration: none;
+}
+.bottom-paging span
+{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px;
+    color: red;
+}
